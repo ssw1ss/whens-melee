@@ -44,11 +44,11 @@ const Layout = ({ children }) => {
             Sign In
           </Link>
         </div>
-        <div>
+        {/* <div>
           <Link href="/sign-up">
             Sign Up
           </Link>
-        </div>
+        </div> */}
         <div>
           <a onClick={signOut}>Sign out</a>
         </div>
